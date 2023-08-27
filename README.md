@@ -77,3 +77,48 @@ MindSpore安装和学习的资源如下：
 
   python eval.py
 
+# 结果展示
+
+训练结果部分展示如下：
+
+ ```python
+    nohup: ignoring input
+    batch_num: 1875
+    Model load over!
+    Momentum cfg.weight_decay:  0.0001
+    args_opt.do_val:  False
+    train begin!
+    cfg.epoch_size: 200
+    epoch: 1 step: 10, loss is 0.1347767412662506
+    epoch: 1 step: 20, loss is 0.2614998519420624
+    epoch: 1 step: 30, loss is 0.3215785026550293
+    epoch: 1 step: 40, loss is 0.3495117425918579
+    ...
+    epoch: 11 step: 1860, loss is 0.09093411266803741
+    epoch: 11 step: 1870, loss is 0.24195249378681183
+    Train epoch time: 955440.238 ms, per step time: 509.568 ms
+    epoch: 12 step: 5, loss is 0.11231812089681625
+    epoch: 12 step: 15, loss is 0.1329130381345749
+    epoch: 12 step: 25, loss is 0.12713535130023956
+    epoch: 12 step: 35, loss is 0.1593036949634552
+    epoch: 12 step: 45, loss is 0.14036336541175842
+    ...
+    epoch: 60 step: 1825, loss is 0.00012944571790285408
+    epoch: 60 step: 1835, loss is 0.0003866434271913022
+    epoch: 60 step: 1845, loss is 0.00015355084906332195
+    epoch: 60 step: 1855, loss is 0.0009922076715156436
+    epoch: 60 step: 1865, loss is 0.0023577185347676277
+    epoch: 60 step: 1875, loss is 6.623654189752415e-05
+    Train epoch time: 952240.974 ms, per step time: 507.862 ms
+    Train success！
+    
+```
+
+推理结果展示如下：
+
+```python
+    nohup: ignoring input
+    batch_num: 10000
+    Param load success!
+    model eval begin!
+```
