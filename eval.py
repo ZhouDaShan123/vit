@@ -50,7 +50,6 @@ if __name__ == '__main__':
     opt = nn.Momentum(net.trainable_params(), 0.01, cfg.momentum, weight_decay=cfg.weight_decay)
 
     param_dict = load_checkpoint(args_opt.checkpoint_path)
-    print("Checkpoint: {}".format(args_opt.checkpoint_path))
     load_param_into_net(net, param_dict)
     print("Param load success!")
 
