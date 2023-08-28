@@ -121,4 +121,5 @@ MindSpore安装和学习的资源如下：
     batch_num: 10000
     Param load success!
     model eval begin!
+    model's accuracy is {'acc': 0.9902}
 ```
